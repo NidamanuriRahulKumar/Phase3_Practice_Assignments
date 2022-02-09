@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="testform.js">
+</script>
+
+</head>
+
+<body>
+<!-- This is a form that is used for testing on the client 
+side using a client-side code form -->
+<h2>Feedback Test Form</h2>
+
+<form onsubmit="SubmitTestForm()">
+  <label for="user">User:</label><br>
+  <input type="text" id="user" name="user" placeholder="John"><br>
+  <label for="comments">Comments:</label><br>
+  <input type="text" id="comments" name="comments" placeholder="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
